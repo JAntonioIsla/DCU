@@ -1,0 +1,30 @@
+{
+  "MedidoresDeAgua": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Medidores de agua",
+    "preguntas" : [
+      {"pregunta": "Tipo",
+        "tipo": "radioGroup",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Funcionando",
+        "tipo": "toogleGroup",
+        "opcion1": "",
+        "opcion2": ""
+      },
+      {"pregunta": "Medidor sin alteraciones",
+        "tipo": "toogleGroup",
+        "opcion1": "",
+        "opcion2": ""
+      },
+      {"pregunta": "Pantalla clara",
+        "tipo": "toogleGroup",
+        "opcion1": "",
+        "opcion2": ""
+      },
+      {"pregunta": "Evidencia fotográfica",
+        "tipo": "photoRecord"
+      }
+    ]
+  }
+}

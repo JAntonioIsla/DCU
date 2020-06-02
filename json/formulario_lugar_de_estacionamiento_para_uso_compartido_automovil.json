@@ -1,0 +1,18 @@
+{
+  "LugarDeEstacionamientoParaUsoCompartidoDeAutomovil": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Lugar de estacionamiento para  uso compartido de automóvil",
+    "preguntas" : [
+      {"pregunta": "Señalado",
+        "tipo": "toogleGroup"
+      },
+      {"pregunta": "Cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 6
+      },
+      {"pregunta": "Evidencia fotográfica",
+        "tipo": "photoRecord"
+      }
+    ]
+  }
+}

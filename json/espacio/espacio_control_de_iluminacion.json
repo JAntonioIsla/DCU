@@ -1,0 +1,9 @@
+{
+  "ControlDeIluminacion": [
+    {"item":"Apagador"},
+    {"item":"Sensor de presencia"},
+    {"item":"Fotocelda"},
+    {"item":"Tablero"},
+    {"item":"Pastilla"}
+  ]
+}

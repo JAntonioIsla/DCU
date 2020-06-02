@@ -1,0 +1,26 @@
+{
+  "MedidorDeEnergiaElectrica": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Medidor de Energía Eléctrica",
+    "preguntas" : [
+      {"pregunta": "Funcionando",
+        "tipo": "toogleGroup",
+        "opcion1": "",
+        "opcion2": ""
+      },
+      {"pregunta": "Pantalla clara",
+        "tipo": "toogleGroup",
+        "opcion1": "",
+        "opcion2": ""
+      },
+      {"pregunta": "Sello de seguridad sin alteraciones",
+        "tipo": "toogleGroup",
+        "opcion1": "",
+        "opcion2": ""
+      },
+      {"pregunta": "Evidencia fotográfica",
+        "tipo": "photoRecord"
+      }
+    ]
+  }
+}

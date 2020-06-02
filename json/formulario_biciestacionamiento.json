@@ -1,0 +1,18 @@
+{
+  "BiciestacionamientoOracksDeBicicleta": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Biciestacionamiento o Racks de Bicicleta",
+    "preguntas" : [
+      {"pregunta": "Ubicacion",
+        "tipo": "textInputField"
+      },
+      {"pregunta": "Capacidad",
+        "tipo": "numericTextField",
+        "maxLength": 6
+      },
+      {"pregunta": "Evidencia fotográfica",
+        "tipo": "photoRecord"
+      }
+    ]
+  }
+}

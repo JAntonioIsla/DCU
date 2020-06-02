@@ -1,0 +1,18 @@
+{
+  "LockersParaUsuariosDeTransporteNoMotorizado": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Lockers para usuarios de transporte no motorizado",
+    "preguntas" : [
+      {"pregunta": "Cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 6
+      },
+      {"pregunta": "AccesoControlado",
+        "tipo": "toogleGroup"
+      },
+      {"pregunta": "Evidencia fotográfica",
+        "tipo": "photoRecord"
+      }
+    ]
+  }
+}

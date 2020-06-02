@@ -1,0 +1,22 @@
+{
+  "DepositosDeAlmacenamientoDeAguaPotable": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Depósitos de almacenamiento de agua potable",
+    "preguntas" : [
+      {"pregunta": "Tipo",
+        "tipo": "radioGroup",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Material",
+        "tipo": "radioGroup",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "¿La tapa presenta daño?",
+        "tipo": "toogleGroup"
+      },
+      {"pregunta": "Evidencia fotográfica",
+        "tipo": "photoRecord"
+      }
+    ]
+  }
+}

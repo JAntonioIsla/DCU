@@ -1,0 +1,57 @@
+{
+  "Luminaria": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Luminaria",
+    "preguntas" : [
+      {"pregunta": "Tipo",
+        "tipo": "autoCompleteTextField",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Potencia",
+        "descripcion": "Watts",
+        "tipo": "numericTextField",
+        "maxLength": 6
+      },
+      {"pregunta": "No funcionales",
+        "descripcion": "cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 4
+      },
+      {"pregunta": "Balastros ociosos",
+        "descripcion": "cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 4
+      },
+      {"pregunta": "Difusores",
+        "descripcion": "cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 4
+      },
+      {"pregunta": "Material del difusor",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Tipo de difusor",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Estado del difusor",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_uso.json"
+      },
+      {"pregunta": "Horas de uso",
+        "tipo": "numericTextFieldDecimal",
+        "maxLength": 4
+      },
+      {"pregunta": "Días de uso a la semana",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_espacio_no_levantado.json"
+      },
+      {"pregunta": "Luiminarias",
+        "descripcion": "cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 4
+      }
+    ]
+  }
+}

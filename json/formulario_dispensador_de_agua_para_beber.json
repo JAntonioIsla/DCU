@@ -1,0 +1,16 @@
+{
+  "DispensadorDeAguaParaBeber": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Dispensador de agua para beber",
+    "preguntas" : [
+      {"pregunta": "Tipo",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Abastecimiento",
+        "tipo": "toogleGroup",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "SistemaDeRiego": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Sistema de riego (temporizador)",
+    "preguntas" : [
+      {"pregunta": "Hora programada de inicio",
+        "tipo": "timeTextField",
+        "maxLength": 4
+      },
+      {"pregunta": "Hora programada de fin",
+        "tipo": "timeTextField",
+        "maxLength": 4
+      },
+      {"pregunta": "Evidencia fotográfica",
+        "tipo": "photoRecord"
+      }
+    ]
+  }
+}

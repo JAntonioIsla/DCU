@@ -1,0 +1,36 @@
+{
+  "Refrigerador": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Refrigerador",
+    "preguntas" : [
+      {"pregunta": "Equipo",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Marca",
+        "tipo": "autoCompleteTextField",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Modelo",
+        "tipo": "autoCompleteTextField",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Capacidad",
+        "descripcion": "dm³",
+        "uppercase": false,
+        "tipo": "numericTextField",
+        "maxLength": 6
+      },
+      {"pregunta": "Etiqueta de eficiencia energética",
+        "tipo": "toogleGroup"
+      },
+      {"pregunta": "Etiqueta de refrigerante ecológico",
+        "tipo": "toogleGroup"
+      },
+      {"pregunta": "Años de operación",
+        "tipo": "numericTextFieldDecimal",
+        "maxLength": 4
+      }
+    ]
+  }
+}

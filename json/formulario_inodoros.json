@@ -1,0 +1,36 @@
+{
+  "Inodoros": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Inodoros",
+    "preguntas" : [
+      {"pregunta": "Tipo",
+        "tipo": "radioGroup",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Marca",
+        "tipo": "textInputField"
+      },
+      {"pregunta": "Modelo",
+        "tipo": "textInputField"
+      },
+      {"pregunta": "Cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 4
+      },{"pregunta": "Equipos que no operan",
+        "descripcion": "Cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 4
+      },
+      {"pregunta": "Evidencia fotográfica (Equipos que no operan)",
+        "tipo": "photoRecord"
+      },{"pregunta": "Equipos con Fugas",
+        "descripcion": "Cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 4
+      },
+      {"pregunta": "Evidencia fotográfica (Equipos con Fugas)",
+        "tipo": "photoRecord"
+      }
+    ]
+  }
+}

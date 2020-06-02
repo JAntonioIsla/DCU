@@ -1,0 +1,27 @@
+{
+  "AreaVerde": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Área verde",
+    "preguntas" : [
+      {"pregunta": "Tipo",
+        "tipo": "radioGroup",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Área total",
+        "descripcion": "m²",
+        "uppercase": false,
+        "tipo": "numericTextField",
+        "maxLength": 4
+      },
+      {"pregunta": "Área de vegetación de bajo consumo",
+        "descripcion": "m²",
+        "uppercase": false,
+        "tipo": "numericTextField",
+        "maxLength": 4
+      },
+      {"pregunta": "Evidencia fotográfica",
+        "tipo": "photoRecord"
+      }
+    ]
+  }
+}

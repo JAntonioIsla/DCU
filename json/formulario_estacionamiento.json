@@ -1,0 +1,19 @@
+{
+  "Estacionamiento": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Estacionamiento",
+    "preguntas" : [
+      {"pregunta": "Caseta o máquina de cobro",
+        "tipo": "toogleGroup"
+      },
+      {"pregunta": "Costo",
+        "tipo": "numericTextFieldDecimal",
+        "maxLength": 6
+      },
+      {"pregunta": "Temporalidad",
+        "tipo": "radioGroup",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      }
+    ]
+  }
+}

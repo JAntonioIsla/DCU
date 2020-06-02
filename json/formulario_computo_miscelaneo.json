@@ -1,0 +1,45 @@
+{
+  "ComputoMiscelaneo": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Computo Miscelaneo",
+    "preguntas" : [
+      {"pregunta": "Equipo",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Marca",
+        "tipo": "autoCompleteTextField",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Modelo",
+        "tipo": "autoCompleteTextField",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Potencia",
+        "descripcion": "Watts",
+        "tipo": "numericTextField",
+        "maxLength": 6
+      },
+      {"pregunta": "Etiqueta de eficiencia o modo ahorrador",
+        "descripcion": "Espera",
+        "tipo": "toogleGroup"
+      },
+      {"pregunta": "Se desconecta",
+        "tipo": "toogleGroup"
+      },
+      {"pregunta": "Horas de uso",
+        "descripcion": "Watts",
+        "tipo": "numericTextFieldDecimal",
+        "maxLength": 6
+      },
+      {"pregunta": "Días de uso a la semana",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 6
+      }
+    ]
+  }
+}

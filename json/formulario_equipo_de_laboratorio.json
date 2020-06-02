@@ -1,0 +1,36 @@
+{
+  "EquipoDeLaboratorio": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Equipo de Laboratorio",
+    "preguntas" : [
+      {"pregunta": "Equipo",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Marca",
+        "tipo": "textInputField"
+      },
+      {"pregunta": "Modelo",
+        "tipo": "textInputField"
+      },
+      {"pregunta": "Potencia",
+        "descripcion": "Watts",
+        "tipo": "numericTextField",
+        "maxLength": 6
+      },
+      {"pregunta": "Horas de uso",
+        "descripcion": "Watts",
+        "tipo": "numericTextFieldDecimal",
+        "maxLength": 6
+      },
+      {"pregunta": "Días de uso a la semana",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 6
+      }
+    ]
+  }
+}

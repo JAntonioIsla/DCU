@@ -1,0 +1,48 @@
+{
+  "Espacio": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Aire Acondicionado",
+    "preguntas" : [
+      {"pregunta": "Equipo",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Marca",
+        "tipo": "autoCompleteTextField",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Modelo",
+        "tipo": "autoCompleteTextField",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Toneladas de refrigeración",
+        "descripcion": "btu",
+        "tipo": "textInputField"
+      },
+      {"pregunta": "Etiqueta de eficiencia",
+        "tipo": "toogleGroup"
+      },
+      {"pregunta": "Etiqueta de refrigerante ecológico",
+        "tipo": "toogleGroup"
+      },
+      {
+        "pregunta": "Temperatura promedio\n en primavera y verano",
+        "descripcion": "°C",
+        "tipo": "numericTextFieldDecimal",
+        "maxLength": 4
+      },
+      {"pregunta": "Horas de uso",
+        "tipo": "numericTextFieldDecimal",
+        "maxLength": 4
+      },
+      {"pregunta": "Días de uso a la semana",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 4
+      }
+    ]
+  }
+}

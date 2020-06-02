@@ -1,0 +1,24 @@
+{
+  "EscorrentiasEnAzoteas": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Escorrentias en azoteas",
+    "preguntas" : [
+      {"pregunta": "¿Cuenta con bajadas de agua pluvial?",
+        "tipo": "toogleGroup",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Evidencia fotográfica",
+        "descripcion": "Bajadas de agua pluvial",
+        "tipo": "photoRecord"
+      },
+      {"pregunta": "Destino",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Evidencia fotográfica",
+        "descripcion": "Destino",
+        "tipo": "photoRecord"
+      }
+    ]
+  }
+}

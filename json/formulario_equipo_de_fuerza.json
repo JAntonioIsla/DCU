@@ -1,0 +1,41 @@
+{
+  "EquipoDeFuerza": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Equipo de Fuerza",
+    "preguntas" : [
+      {"pregunta": "Uso del motor",
+        "tipo": "autoCompleteTextField",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Especificar",
+        "tipo": "textInputField"
+      },
+      {"pregunta": "Marca",
+        "tipo": "textInputField"
+      },
+      {"pregunta": "Modelo",
+        "tipo": "textInputField"
+      },
+      {"pregunta": "Potencia",
+        "descripcion": "watts",
+        "tipo": "numericTextField",
+        "maxLength": 6
+      },
+      {"pregunta": "Días de uso a la semana",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Etiqueta de eficiencia energética",
+        "tipo": "toogleGroup"
+      },
+      {"pregunta": "Años de operación",
+        "tipo": "numericTextFieldDecimal",
+        "maxLength": 4
+      },
+      {"pregunta": "Cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 4
+      }
+    ]
+  }
+}

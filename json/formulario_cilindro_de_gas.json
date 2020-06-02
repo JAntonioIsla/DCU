@@ -1,0 +1,17 @@
+{
+  "CilindroDeGas": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Cilindro de Gas",
+    "preguntas" : [
+      {"pregunta": "Capacidad",
+        "descripcion": "Kg",
+        "tipo": "numericTextField",
+        "maxLength": 8
+      },
+      {"pregunta": "Área de servicio",
+        "tipo": "chipGroup",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      }
+    ]
+  }
+}

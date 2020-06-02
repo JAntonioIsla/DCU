@@ -1,0 +1,32 @@
+{
+  "Residuos": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Residuos",
+    "preguntas" : [
+      {"pregunta": "Tipo",
+        "tipo": "radioGroup",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Cantidad",
+        "tipo": "numericTextField",
+        "maxLength": 4
+      },
+      {"pregunta": "Categoría",
+        "tipo": "chipGroup",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Capacidad",
+        "descripcion": "L",
+        "uppercase": false,
+        "tipo": "numericTextField",
+        "maxLength": 4
+      },
+      {"pregunta": "¿Se respeta la categoría?",
+        "tipo": "toggleGroup"
+      },
+      {"pregunta": "Evidencia fotográfica",
+        "tipo": "photoRecord"
+      }
+    ]
+  }
+}

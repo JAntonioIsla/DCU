@@ -1,0 +1,45 @@
+{
+  "Espacio": {
+    "categoria": "Sustentabilidad",
+    "nombre": "Espacio",
+    "preguntas" : [
+      {"pregunta": "Control de iluminación",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_control_de_iluminacion.json"
+      },
+      {"pregunta": "Cantidad de controles de iluminación",
+        "tipo": "numericTextField",
+        "maxLength": 3
+      },
+      {"pregunta": "Color del techo",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_color.json"
+      },
+      {"pregunta": "Color de las paredes",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_color.json"
+      },
+      {"pregunta": "Entradas de luz natural",
+        "tipo": "toogleGroup",
+        "opcion1": "",
+        "opcion2": ""
+      },
+      {"pregunta": "Tipos de entradas de luz natural",
+        "tipo": "radioGroup",
+        "catalogo": "json/espacio/espacio_entrada_de_luz_natural.json"
+      },
+      {"pregunta": "Lumenes promedio",
+        "tipo": "numericTextField"
+      },
+      {"pregunta": "Uso",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_uso.json"
+      },
+      {"pregunta": "Espacio no levantado",
+        "descripcion": "Motivo",
+        "tipo": "spinner",
+        "catalogo": "json/espacio/espacio_espacio_no_levantado.json"
+      }
+    ]
+  }
+}
